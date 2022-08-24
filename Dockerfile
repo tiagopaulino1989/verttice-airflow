@@ -7,10 +7,10 @@ RUN python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # you can also use regular install of the packages
-RUN pip3 install pyodbc SQLAlchemy
+# RUN pip3 install pyodbc SQLAlchemy
 
 # and if you are also planning to use Flask and Flask-SQLAlchemy
-RUN pip3 install Flask Flask-SQLAlchemy
+# RUN pip3 install Flask Flask-SQLAlchemy
 
 # # install FreeTDS and dependencies
 # RUN apt-get update \
